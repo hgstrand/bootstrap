@@ -35,6 +35,7 @@ brew cask install easyfind
 brew cask install electrum
 brew cask install electrum-ltc
 brew cask install etcher
+brew cask install firefox
 brew cask install flux
 brew cask install google-chrome
 brew cask install iterm2
