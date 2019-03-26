@@ -1,15 +1,15 @@
 #!/usr/bin/env bash
 
 # Install Homebrew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+# /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 
 # Symlink dotfiles
 
-ln -s ~/.dotfiles/.bashrc ~
-ln -s ~/.dotfiles/.bash_profile ~
-ln -s ~/.dotfiles/.vimrc ~
-ln -s ~/.dotfiles/.inputrc ~
+ln -s ~/dev/dotfiles/.bashrc ~
+ln -s ~/dev/dotfiles/.bash_profile ~
+ln -s ~/dev/dotfiles/.vimrc ~
+ln -s ~/dev/dotfiles/.inputrc ~
 
 ### Vim setup ###
 # Make backup- and swapdir

@@ -17,40 +17,35 @@ brew upgrade --all
 
 brew install bash
 brew install git
-brew install vim --override-system-vi
-brew install macvim --override-system-vim --custom-system-icons
-
-# Install `wget` with IRI support.
-brew install wget --with-iri
+brew install vim 
+brew install macvim 
+brew install wget
 
 
 brew cask install alfred
-brew cask install android-studio
-brew cask install apptrap
-brew cask install arduino
-brew cask install caffeine
-brew cask install calibre 
-brew cask install dropbox
+# brew cask install android-studio
+# brew cask install apptrap
+# brew cask install arduino
+brew cask install keepingyouawake
+# brew cask install calibre 
+# brew cask install dropbox
 brew cask install easyfind
 brew cask install electrum
 brew cask install electrum-ltc
-brew cask install etcher
+# brew cask install etcher
 brew cask install firefox
 brew cask install flux
 brew cask install google-chrome
 brew cask install iterm2
-brew cask install karabiner
-brew cask install kindle
-brew cask install locko
-brew cask install psequel
-brew cask install seil
+brew cask install karabiner-elements
+# brew cask install kindle
 brew cask install soulver
 brew cask install spotify
-brew cask install the-unarchiver 
+# brew cask install the-unarchiver 
 brew cask install transmission
 brew cask install tunnelblick
-brew cask install virtualbox
-brew cask install vagrant
+# brew cask install virtualbox
+# brew cask install vagrant
 brew cask install vlc
 brew cask alfred link
 
