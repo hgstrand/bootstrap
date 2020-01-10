@@ -13,7 +13,7 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 brew update
 
 # Upgrade any already-installed formulae.
-brew upgrade --all
+brew upgrade
 
 brew install bash
 brew install git
@@ -50,7 +50,6 @@ brew cask install tunnelblick
 # brew cask install virtualbox
 # brew cask install vagrant
 brew cask install vlc
-brew cask alfred link
 
 # Installing Command-line File Completion
 git clone https://github.com/pindexis/qfc $HOME/.qfc
