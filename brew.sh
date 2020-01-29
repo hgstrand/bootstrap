@@ -17,12 +17,13 @@ brew upgrade
 
 brew install bash
 brew install git
-brew install python
+# brew install python
 brew install vim 
 brew install wget
 
 
 brew cask install alfred
+brew cask install bitwarden
 # brew cask install android-studio
 # brew cask install apptrap
 # brew cask install arduino
@@ -30,7 +31,7 @@ brew cask install alfred
 # brew cask install calibre 
 # brew cask install dropbox
 brew cask install easyfind
-brew cask install electrum
+#brew cask install electrum
 brew cask install electrum-ltc
 brew cask install firefox
 brew cask install flux
