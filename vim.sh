@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh 
 
 #Install Pathogen
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \

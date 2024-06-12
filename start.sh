@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -6,16 +6,14 @@
 
 # Symlink dotfiles
 
-ln -s ~/dev/dotfiles/.bashrc ~
-ln -s ~/dev/dotfiles/.bash_profile ~
-ln -s ~/dev/dotfiles/.vimrc ~
-ln -s ~/dev/dotfiles/.inputrc ~
+ln -s ~/dev/dotfiles/.zshrc ~
+#ln -s ~/dev/dotfiles/.vimrc ~
 
 ### Vim setup ###
 # Make backup- and swapdir
-mkdir -p ~/.vim/backups
-mkdir -p ~/.vim/swaps
-mkdir -p ~/.vim/undo
+#mkdir -p ~/.vim/backups
+#mkdir -p ~/.vim/swaps
+#mkdir -p ~/.vim/undo
 
 # Add (solarized, pencil) colors for vim if not present
 if [ ! -f $HOME/.vim/colors/solarized.vim ]; then
@@ -28,7 +26,5 @@ if [ ! -f $HOME/.vim/colors/pencil.vim ]; then
 fi
 ###
 
-source ~/.bashrc
-source ~/.bash_profile
-source ~/.inputrc
+source ~/.zshrc
 
