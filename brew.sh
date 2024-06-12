@@ -17,41 +17,40 @@ brew upgrade
 
 brew install bash
 brew install git
-#brew install python
+brew install python
 brew install vim 
 brew install wget
 
 
-brew cask install alfred
-brew cask install arctype
-brew cask install bitwarden
-brew cask install apptrap
-#brew cask install arduino
-#brew cask install balenaetcher
-#brew cask install calibre 
-#brew cask install dropbox
-brew cask install easyfind
-#brew cask install electrum
-#brew cask install electrum-ltc
-brew cask install firefox
-brew cask install flux
-brew cask install google-chrome
-brew cask install iina
-brew cask install iterm2
-brew cask install karabiner-elements
-brew cask install keepingyouawake
-brew cask install kindle
-brew cask install macvim
-brew cask install marked
-brew cask install obsidian
-brew cask install soulver
-brew cask install spotify
-#brew cask install the-unarchiver 
-brew cask install transmission
-brew cask install tunnelblick
-#brew cask install virtualbox
-#brew cask install vagrant
-#brew cask install vlc
+brew install alfred
+brew install bitwarden
+brew install apptrap
+#brew install arduino
+#brew install balenaetcher
+#brew install calibre 
+#brew install dropbox
+brew install easyfind
+#brew install electrum
+#brew install electrum-ltc
+brew install firefox
+brew install flux
+brew install google-chrome
+brew install iina
+brew install iterm2
+brew install karabiner-elements
+brew install keepingyouawake
+brew install kindle
+brew install macvim
+brew install marked
+brew install obsidian
+brew install soulver
+brew install spotify
+#brew install the-unarchiver 
+brew install transmission
+brew install tunnelblick
+#brew install virtualbox
+#brew install vagrant
+#brew install vlc
 
 # Installing Command-line File Completion
 git clone https://github.com/pindexis/qfc $HOME/.qfc
