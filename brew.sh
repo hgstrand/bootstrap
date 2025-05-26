@@ -15,8 +15,10 @@ brew update
 #Upgrade any already-installed formulae.
 brew upgrade
 
+# Install nerd fonts for OhMyZSH
+brew install font-hack-nerd-font
+
 #brew install git
-#brew install python
 #brew install vim 
 #brew install wget
 
