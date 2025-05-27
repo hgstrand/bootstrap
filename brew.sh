@@ -19,12 +19,13 @@ brew upgrade
 brew install font-hack-nerd-font
 
 #brew install git
-#brew install vim 
-#brew install wget
+brew install neovim 
+brew install coreutils
+brew install ghostty
 
 
 #brew install alfred
-brew install bitwarden
+brew --cask install bitwarden
 #brew install apptrap
 #brew install arduino
 #brew install balenaetcher
@@ -37,21 +38,19 @@ brew install bitwarden
 #brew install flux
 #brew install google-chrome
 #brew install iina
-brew install iterm2
 #brew install karabiner-elements
-#brew install keepingyouawake
-brew install kindle
-#brew install macvim
+brew --cask install keepingyouawake
+#brew install kindle
 #brew install marked
-brew install obsidian
+brew --cask install obsidian
 #brew install soulver
-brew install spotify
+brew --cask install spotify
 #brew install the-unarchiver 
-brew install --cask transmission
+brew --cask install transmission
 #brew install tunnelblick
 #brew install virtualbox
 #brew install vagrant
-#brew install vlc
+brew --cask install vlc
 
 # Installing Command-line File Completion
 #git clone https://github.com/pindexis/qfc $HOME/.qfc
