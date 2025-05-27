@@ -16,7 +16,13 @@ git clone git@github.com:hgstrand/dotfile.git
 
 Setup 
 - run start.sh
+    ```
+    sh ~/dev/bootstrap/start.sh
+    ```
 - run brew.sh
+    ```
+    sh ~/dev/bootstrap/brew.sh
+    ```
 
 
 
