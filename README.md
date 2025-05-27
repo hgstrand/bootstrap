@@ -5,14 +5,14 @@ Set up SSH key and connection to github
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 
 Clone this repo:
-'''
+```
 mkdir -p dev %% cd dev
 git clone git@github.com:hgstrand/bootstrap.git
-'''
+```
 Clone dotfiles
-'''
+```
 git clone git@github.com:hgstrand/dotfile.git
-''''
+```
 
 Setup 
 - run start.sh
