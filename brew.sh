@@ -3,7 +3,7 @@
 
 # Install command-line tools using Homebrew.
 
-# Ask for the administrator password upfront.
+# Ask for the administrator password upfront. test
 sudo -v
 
 # Keep-alive: update existing `sudo` time stamp until the script has finished.
