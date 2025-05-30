@@ -23,7 +23,6 @@ brew install neovim
 brew install coreutils
 
 
-#brew install alfred
 brew install --cask bitwarden
 brew install --cask ghostty
 brew install --cask iina
@@ -32,6 +31,7 @@ brew install --cask obsidian
 brew install --cask spotify
 brew install --cask vlc
 brew install --cask transmission
+brew install --cask firefox
 #brew install apptrap
 #brew install arduino
 #brew install balenaetcher
@@ -40,8 +40,6 @@ brew install --cask transmission
 #brew install easyfind
 #brew install electrum
 #brew install electrum-ltc
-#brew install firefox
-#brew install flux
 #brew install google-chrome
 #brew install karabiner-elements
 #brew install kindle
