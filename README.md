@@ -31,10 +31,8 @@ https://www.howtogeek.com/231829/how-to-disable-developer-search-results-in-spot
 
 ### Dotfile inspirations
 https://gist.github.com/swyxio/7fa1009e460ecb818d5e6d9ca4616a05
-hello
 
 ### Setup Guides
-[Eugene](https://eugeneyan.com/writing/mac-setup)
-
+[Eugene](https://eugeneyan.com/writing/mac-setup) /
 [Christoph Nakazawa](https://cpojer.net/posts/set-up-a-new-mac-fast)
 
