@@ -3,6 +3,10 @@
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+# Add Homebrew to path
+echo >> /Users/henrik/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/henrik/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Symlink dotfiles
 ln -s ~/dev/dotfiles/.zshrc ~
